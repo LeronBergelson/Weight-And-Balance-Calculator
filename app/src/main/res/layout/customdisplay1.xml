@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#202020"
+    android:scrollIndicators="right">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView12"
+        android:background="@drawable/carouselglare"
+        android:backgroundTint="#77ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="------ "
+        android:id="@+id/planeselection"
+        android:textColor="#fc0d00"
+        android:layout_alignTop="@+id/planetxt"
+        android:layout_marginLeft="200dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Plane Selected:"
+        android:id="@+id/planetxt"
+        android:layout_marginBottom="25dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/button3"
+        android:layout_below="@+id/planetxt"
+        android:scrollIndicators="right">
+    <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:visibility="visible">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Weight"
+            android:id="@+id/textView10"
+            android:textColor="#ffffff"
+            android:layout_toEndOf="@+id/textView3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Moment"
+            android:id="@+id/textView11"
+            android:textColor="#ffffff"
+            android:layout_alignTop="@+id/textView10"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="30dp" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Empty:"
+        android:id="@+id/textView"
+            android:layout_marginLeft="5dp"
+            android:textColor="#f60004"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Front Seat Weight: "
+            android:id="@+id/textView2"
+            android:layout_marginTop="27dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/EmptyM_num"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="-65dp"
+            android:layout_marginBottom="25dp"
+            android:textColor="#f60004"
+            android:layout_alignEnd="@+id/textView" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/FFSW_num"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignStart="@+id/FLW_num"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/EmptyM_num"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/EmptyW_num"
+        android:layout_alignStart="@+id/textView11" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/EmptyW_num"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignStart="@+id/textView10" />
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/FSWW_num"
+        android:textColor="#ffffff"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_toEndOf="@+id/textView3" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/FSWM_num"
+        android:layout_alignTop="@+id/FSWW_num"
+        android:layout_alignStart="@+id/EmptyM_num"
+        android:textColor="#ffffff" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Rear Seat Weight:"
+        android:id="@+id/textView3"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="25dp"
+        android:layout_toStartOf="@+id/EmptyM_num"
+        android:textColor="#f60004"
+        android:layout_alignEnd="@+id/textView2" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Baggage Weight:"
+        android:id="@+id/textView4"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="25dp"
+        android:textColor="#f60004"
+        android:layout_alignEnd="@+id/textView5" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sub Total - Zero Fuel Condition:"
+        android:id="@+id/textView5"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="70dp"
+        android:layout_toStartOf="@+id/ZFCW_num"
+        android:textColor="#ffffff"
+        android:layout_alignEnd="@+id/textView3" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CofG 1 = "
+            android:id="@+id/textView14"
+            android:textColor="#9f9f9f"
+            android:layout_above="@+id/textView6"
+            android:layout_alignEnd="@+id/textView10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/CofG1"
+            android:textColor="#ffffff"
+            android:layout_alignTop="@+id/textView14"
+            android:layout_toEndOf="@+id/textView14" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Fuel Loading:"
+        android:id="@+id/textView6"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp"
+        android:textColor="#f60004"
+        android:layout_alignEnd="@+id/textView3"
+            android:layout_marginTop="50dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sub Total Ramp Condition:"
+            android:id="@+id/textView13"
+            android:textColor="#f60004"
+            android:layout_below="@+id/FLW_num"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_alignEnd="@+id/textView6"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Fuel For Start - Taxi And Run Up: "
+        android:id="@+id/textView7"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#f60004"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/textView8" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sub Total Take Off Condition:"
+        android:id="@+id/textView9"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/textView7"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_marginTop="31dp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CofG 2 = "
+            android:id="@+id/textView16"
+            android:textColor="#9f9f9f"
+            android:layout_below="@+id/textView9"
+            android:layout_toEndOf="@+id/textView9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/CofG3"
+            android:textColor="#ffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/textView16"
+            android:layout_marginTop="100dp" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/RSWW_num"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignStart="@+id/FSWW_num" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/RSWM_num"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/RSWW_num"
+        android:layout_alignStart="@+id/FBaggageM_num" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/FBaggageM_num"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/FBaggageW_num"
+        android:layout_alignStart="@+id/FSWM_num" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/ZFCM_num"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/ZFCW_num"
+        android:layout_alignStart="@+id/FBaggageM_num" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/FLM_num"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignStart="@+id/ZFCM_num" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/FLW_num"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/FLM_num"
+        android:layout_alignStart="@+id/FBaggageW_num" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/FFSM_num2"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignStart="@+id/FLM_num"
+        android:textColor="#ffffff"
+        android:layout_gravity="bottom" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/STTOW_num"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignStart="@+id/FFSW_num"
+        android:textColor="#ffffff" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/STTOM_num"
+        android:layout_alignTop="@+id/STTOW_num"
+        android:layout_alignStart="@+id/FFSM_num2"
+        android:textColor="#ffffff" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/FBaggageW_num"
+        android:layout_marginRight="10dp"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignStart="@+id/RSWW_num" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/ZFCW_num"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignStart="@+id/FLW_num"
+        android:textColor="#ffffff" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Subtract Fuel To Destination:"
+        android:id="@+id/textView8"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/textView9"
+        android:layout_alignStart="@+id/textView4"
+        android:textColor="#f60004"
+        android:layout_toStartOf="@+id/SFTDW_num" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/SFTDW_num"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignStart="@+id/STTOW_num"
+        android:textColor="#ffffff" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/SFTDM_num"
+        android:layout_toEndOf="@+id/SFTDW_num"
+        android:layout_alignTop="@+id/SFTDW_num"
+        android:layout_alignStart="@+id/STTOM_num"
+        android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Landing Condition:"
+            android:id="@+id/textView12"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="26dp"
+            android:layout_below="@+id/textView8"
+            android:layout_alignStart="@+id/textView4"
+            android:textColor="#f60004"
+            android:layout_toStartOf="@+id/SFTDW_num"
+            android:layout_marginBottom="70dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/STRCW_num"
+            android:textColor="#ffffff"
+            android:layout_alignBottom="@+id/textView13"
+            android:layout_toEndOf="@+id/textView12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/STRCM_num"
+            android:textColor="#ffffff"
+            android:layout_alignTop="@+id/STRCW_num"
+            android:layout_alignStart="@+id/FLM_num" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/LCW_num"
+            android:textColor="#ffffff"
+            android:layout_alignBottom="@+id/textView12"
+            android:layout_toEndOf="@+id/textView12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/LCM_num"
+            android:textColor="#ffffff"
+            android:layout_alignBottom="@+id/textView12"
+            android:layout_alignStart="@+id/SFTDM_num" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CofG 3 = "
+            android:id="@+id/textView18"
+            android:textColor="#9f9f9f"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/textView9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/CofG2"
+            android:textColor="#ffffff"
+            android:layout_alignTop="@+id/textView16"
+            android:layout_toEndOf="@+id/textView16" />
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Save and Return To Menu   "
+        android:id="@+id/button3"
+        android:textColor="#f60004"
+        android:background="#313131"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

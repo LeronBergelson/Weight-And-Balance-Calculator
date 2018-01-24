@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202020">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+
+    <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textAppearance="?android:attr/textAppearanceLarge"
+android:text="==============="
+android:id="@+id/planeselected"
+android:textColor="#ee0000"
+        android:layout_alignTop="@+id/Planeselection_txt"
+        android:layout_alignStart="@+id/PW_num"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Plane Selected:"
+        android:id="@+id/Planeselection_txt"
+        android:textColor="#f60004"
+        android:layout_above="@+id/PW_num"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Plane Weight:"
+        android:id="@+id/FSW_txt"
+        android:textColor="#ffffff"
+        android:layout_marginTop="96dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal|numberSigned"
+        android:ems="4"
+        android:id="@+id/PW_num"
+        android:textColor="#ffffff"
+        android:autoText="false"
+        android:singleLine="false"
+        android:layout_alignTop="@+id/FSW_txt"
+        android:layout_alignStart="@+id/PM_num" />
+
+            <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Plane Moment:"
+        android:id="@+id/RSW_txt"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/PW_num"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal|numberSigned"
+        android:ems="4"
+        android:id="@+id/PM_num"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@+id/RSW_txt"
+        android:layout_toEndOf="@+id/RSW_txt" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    Set and Continue   "
+        android:id="@+id/flightbutton"
+        android:textColor="#f60004"
+        android:background="#313131"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:background="@drawable/carouselglare"
+        android:backgroundTint="#77ffffff"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

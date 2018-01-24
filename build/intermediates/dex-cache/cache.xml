@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-wallet-8.1.0_ff43238cdd1dd96727dc23a1de138a7a4ba685c9.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-measurement-8.1.0_774e1c0a7043dd5fcd7c4622ad1630abc948ce75.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-8.1.0_ddd1f105097d768eb3ab03b6560d3b20ea071a63.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="17449c47df35c754b257532052f1270c444f7993">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-vision-8.1.0_1b998718da2e8f7f199bde90f83b7e826e53398c.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3178362320bcf51228835b60ff978efadfd1f783">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-cast-8.1.0_afddff0b2164c74853306ab1a2169eb84525d480.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-location-8.1.0_b2d47ed32729d96d3815811db33918b844f3f040.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-analytics-8.1.0_17d940719a4340b32a5bbdbb3c91b6b874edf3ee.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-panorama-8.1.0_d1cbc10e8b7c2bc0f7ec6951c1a4fea6d6eec986.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-games-8.1.0_722a0af5fa60686293790c3a11a9efd6a5d14463.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-wearable-8.1.0_dc1c9f1565ec9d8ee5cb9e33003834909988ef78.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-nearby-8.1.0_05ffdd7a4ec7e3ac2df85c7e17936b3b0fb69de4.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-gcm-8.1.0_7ce4f0e2e8a4d9b9b2bc447e35930c3980de482e.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/support-annotations-23.1.1_fae4624056db85aa1821767dcf216ec35182e3a0.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-8.1.0_bf3b98a9aba4cfbb72f64b8db3eafc41eeb0c74f.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.1.1_f087661227a4eebdd869fbd083f9ff995a7efcb1.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-plus-8.1.0_0bb1009146eb49a3dde24e0106de460c8ed3b424.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-8.1.0_4dcaa64ad06435b613e9b2c1d36ef4019a1abb42.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/internal_impl-23.1.1_0b168137afca04b09dfba7c9529cb6a53e12fc26.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/internal_impl-22.2.0_57ec6e72afa9c75958869130e446b070ff3bc819.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-appinvite-8.1.0_f5af9ca79d68f12a9c033c8f869abef971f55047.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.android.support-mediarouter-v7-22.2.0_eee1e054879a16e85e9822690ae2b3f010e56094.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-drive-8.1.0_24e260a711d1fa74b6a5502eaad45bd5d39d85ff.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-maps-8.1.0_a13fbe06560caac2aa7bf311dfcfb924f48c8052.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-fitness-8.1.0_01af0ee323c192e87fb007b67d4339a9ff13fa55.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-identity-8.1.0_71daa94bb7ce898e5cd5db258f7fb620426d7232.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-appindexing-8.1.0_c96148859876f72db364bef582c9ac05f909aa31.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.1.1_ea837b1e3a520b6e89500386d88232c0fe3d44ab.jar" />
+    </item>
+    <item
+        jar="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
+        <dex dex="/Users/leronbergelson/Desktop/Android Development/Weight and Balance Calculator/FlightCalc/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-safetynet-8.1.0_0320485f16cc6dc945c11b3880a921628d94e60f.jar" />
+    </item>
+
+</items>

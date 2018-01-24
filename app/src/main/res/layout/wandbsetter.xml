@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#f7f7f7">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#202020">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:background="#202020">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Input custom Weight and Balance formula for Bananza:"
+            android:id="@+id/textView20"
+            android:textColor="#f60004"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal|numberSigned"
+                android:ems="4"
+                android:id="@+id/FormulaFSW1"
+                android:textColor="#ffffff"
+                android:autoText="false"
+                android:singleLine="false"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_below="@+id/textView23"
+                android:layout_marginTop="5dp" />
+
+            <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal|numberSigned"
+            android:ems="4"
+            android:id="@+id/FormulaFSW2"
+            android:textColor="#ffffff"
+            android:autoText="false"
+            android:singleLine="false"
+                android:layout_alignTop="@+id/FormulaFSW1"
+                android:layout_alignStart="@+id/FormulaRSW2" />
+
+            <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal|numberSigned"
+            android:ems="4"
+            android:id="@+id/FormulaRSW1"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/textView25"
+            android:layout_alignStart="@+id/FormulaFSW1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal|numberSigned"
+                android:ems="4"
+                android:id="@+id/FormulaRSW2"
+                android:textColor="#ffffff"
+                android:autoText="false"
+                android:singleLine="false"
+                android:layout_above="@+id/textView27"
+                android:layout_alignStart="@+id/FormulaFL3" />
+
+            <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal|numberSigned"
+            android:ems="4"
+            android:id="@+id/FormulaBaggage1"
+            android:textColor="#ffffff"
+            android:layout_alignTop="@+id/textView27"
+            android:layout_alignStart="@+id/FormulaRSW1"
+            android:layout_marginTop="25dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal|numberSigned"
+                android:ems="4"
+                android:id="@+id/FormulaBaggage2"
+                android:textColor="#ffffff"
+                android:layout_alignTop="@+id/textView30"
+                android:layout_alignStart="@+id/FormulaRSW2" />
+
+            <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal|numberSigned"
+            android:ems="4"
+            android:id="@+id/FormulaFL1"
+            android:textColor="#ffffff"
+                android:layout_below="@+id/textView31"
+                android:layout_alignStart="@+id/FormulaBaggage1"
+                android:layout_marginBottom="5dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal|numberSigned"
+                android:ems="4"
+                android:id="@+id/FormulaFL2"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/textView24"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal|numberSigned"
+            android:ems="4"
+            android:id="@+id/FormulaFL3"
+            android:textColor="#ffffff"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/textView24"
+                android:layout_toEndOf="@+id/textView28" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal|numberSigned"
+                android:ems="4"
+                android:id="@+id/FormulaFL4"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/textView24"
+                android:layout_alignEnd="@+id/textView45" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal|numberSigned"
+                android:ems="4"
+                android:id="@+id/FormulaSTTOC1"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/textView35"
+                android:layout_alignStart="@+id/textView35" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal|numberSigned"
+                android:ems="4"
+                android:id="@+id/FormulaSTTOC2"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/textView36"
+                android:layout_alignStart="@+id/textView36" />
+
+            <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal|numberSigned"
+            android:ems="4"
+            android:id="@+id/FormulaSFTD1"
+            android:textColor="#ffffff"
+                android:layout_below="@+id/textView39"
+                android:layout_alignStart="@+id/textView38" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal|numberSigned"
+                android:ems="4"
+                android:id="@+id/FormulaSFTD2"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/textView38"
+                android:layout_alignStart="@+id/textView38" />
+
+            <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal|numberSigned"
+            android:ems="4"
+            android:id="@+id/FormulaSFTD3"
+            android:textColor="#ffffff"
+                android:layout_alignTop="@+id/FormulaSFTD2"
+                android:layout_alignEnd="@+id/textView26" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal|numberSigned"
+                android:ems="4"
+                android:id="@+id/FormulaCOFG1"
+                android:textColor="#ffffff"
+                android:layout_alignTop="@+id/textView41"
+                android:layout_alignStart="@+id/textView39"
+                android:layout_marginTop="45dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal|numberSigned"
+                android:ems="4"
+                android:id="@+id/FormulaCOFG2"
+                android:textColor="#ffffff"
+                android:layout_alignTop="@+id/textView43"
+                android:layout_alignStart="@+id/textView43"
+                android:layout_marginTop="45dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal|numberSigned"
+                android:ems="4"
+                android:id="@+id/FormulaCOFG3"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/textView45"
+                android:layout_alignStart="@+id/textView45" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Front Seat Moment  =  Front Seat  x"
+            android:id="@+id/textView23"
+            android:textColor="#ffffff"
+            android:layout_marginTop="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Rear Seat Moment = Rear Seat  x"
+            android:id="@+id/textView25"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/FormulaFSW1"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Baggage Moment = Baggage  x"
+            android:id="@+id/textView27"
+            android:layout_below="@+id/FormulaRSW1"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Fuel Loading Weight = Fuel Load  x "
+            android:id="@+id/textView31"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/textView27"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Fuel Loading Moment = Fuel Load x"
+            android:id="@+id/textView24"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_below="@+id/FormulaFL1"
+            android:layout_alignStart="@+id/textView31"
+            android:layout_marginTop="20dp" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="/"
+            android:id="@+id/textView22"
+            android:layout_alignTop="@+id/FormulaRSW1"
+            android:layout_alignStart="@+id/textView21" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="/"
+            android:id="@+id/textView21"
+            android:layout_alignTop="@+id/FormulaFSW2"
+            android:layout_toEndOf="@+id/FormulaRSW1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="/"
+            android:id="@+id/textView30"
+            android:layout_alignTop="@+id/FormulaBaggage1"
+            android:layout_toEndOf="@+id/FormulaBaggage1" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sub Total Take Off Condition (Weight) = Sub Total Ramp Condition  - "
+            android:id="@+id/textView35"
+            android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:layout_marginTop="29dp"
+                android:layout_below="@+id/FormulaFL2"
+                android:layout_alignStart="@+id/textView36" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sub Total Take Off Condition (Moment) = Sub Total Ramp Condition  - "
+            android:id="@+id/textView36"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/FormulaSTTOC1"
+            android:layout_alignParentStart="true" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Subtract Fuel To Destination (Weight) = Flight Time  x  Fuel Burn  x  "
+            android:id="@+id/textView39"
+            android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/FormulaSTTOC2"
+                android:layout_alignStart="@+id/FormulaSFTD1" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Subtract Fuel To Destination (Moment) = S.F.T.D (Weight)  x "
+            android:id="@+id/textView38"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/FormulaSFTD1"
+            android:layout_alignParentStart="true" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="/"
+            android:id="@+id/textView40"
+            android:textColor="#ffffff"
+                android:layout_alignTop="@+id/FormulaSFTD2"
+                android:layout_alignStart="@+id/textView42" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="COFG1 = Sub Total Zero Fuel Condition (Moment)  x  "
+            android:id="@+id/textView41"
+            android:textColor="#ff0000"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"
+            android:layout_below="@+id/FormulaSFTD2"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="/  S.T.Z.F.C (Weight)   "
+            android:id="@+id/textView42"
+            android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:layout_alignBottom="@+id/FormulaCOFG1"
+                android:layout_alignEnd="@+id/textView25"
+                android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CofG2 = Sub Total Take Off Condition (Moment)  x"
+            android:id="@+id/textView43"
+            android:textColor="#ff0000"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/FormulaCOFG1"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="20dp" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="/  S.T.T.O.C (Weight)   "
+            android:id="@+id/textView44"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+                android:layout_alignTop="@+id/FormulaCOFG2"
+                android:layout_alignStart="@+id/textView42" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CofG3 = Landing Condition Moment  x"
+            android:id="@+id/textView45"
+            android:textColor="#ff0000"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/FormulaCOFG2" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="/ Landing Condition (Weight)   "
+            android:id="@+id/textView46"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_alignTop="@+id/FormulaCOFG3"
+            android:layout_toEndOf="@+id/FormulaSFTD2"
+            android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="26dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Submit Data   "
+                android:id="@+id/setbutton1"
+                android:textColor="#f60004"
+                android:background="#313131"
+                android:layout_marginTop="60dp"
+                android:layout_below="@+id/textView46"
+                android:layout_toStartOf="@+id/FormulaFL4"
+                android:layout_marginBottom="100dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="x"
+                android:id="@+id/textView28"
+                android:layout_alignTop="@+id/FormulaFL2"
+                android:layout_toEndOf="@+id/FormulaSTTOC1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="/"
+                android:id="@+id/textView26"
+                android:layout_alignTop="@+id/FormulaFL4"
+                android:layout_toEndOf="@+id/FormulaFL3"
+                android:layout_marginLeft="5dp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView18"
+        android:background="@drawable/carouselglare"
+        android:backgroundTint="#77ffffff"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>

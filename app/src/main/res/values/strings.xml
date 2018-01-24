@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Aircraft W/B Calculator</string>
+    <string-array name="planeselection" >
+        <item>   Custom Aircraft   </item>
+        <item>C-FSEV - Cessna 172 G</item>
+        <item>C-GSEO - Cessna 172 G </item>
+        <item>C-GSEU - Cessna 172 G</item>
+        <item>C-GSEY - Cessna 172 G</item>
+        <item>C-FSCF - Cessna 172</item>
+        <item>C-FSCG - Cessna 172</item>
+        <item>C-FSCL - Cessna 172</item>
+        <item>C-GSCR - Cessna 172</item>
+        <item>C-GSCS - Cessna 172</item>
+        <item>C-GSCT - Cessna 172</item>
+        <item>C-GSCX - Cessna 172</item>
+        <item>C-GSEQ - Cessna 172</item>
+        <item>C-GSCU - F33A Bonanza</item>
+        <item>C-GSCV - F33A Bonanza</item>
+        <item>C-GSCW - F33A Bonanza</item>
+        <item>C-GSCY - F33A Bonanza</item>
+
+    </string-array>
+    <string name="ad_unit_id">ca-app-pub-7932406359473798/9104240860</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7932406359473798/1720574866</string>
+
+
+</resources>
