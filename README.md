@@ -5,6 +5,7 @@ Weight and balance Calculator is an application developed in order to help aviat
 
 
 ![screenshot_20180123-190913](https://user-images.githubusercontent.com/19450714/35310042-73cab0fe-007d-11e8-96d4-d565f7e70ce0.png)
+![screenshot_20180123-190950](https://user-images.githubusercontent.com/19450714/35310255-812493e0-007e-11e8-9c00-c34c113fed9c.png)
 ![screenshot_20180123-193719](https://user-images.githubusercontent.com/19450714/35310121-dc3764de-007d-11e8-9d46-4c4431da4562.png)
 ![screenshot_20180123-194229](https://user-images.githubusercontent.com/19450714/35310120-dc28816c-007d-11e8-9c3d-3f4cb7de7d87.png)
 ![screenshot_20180123-194306](https://user-images.githubusercontent.com/19450714/35310119-dc1addaa-007d-11e8-8186-920213658bf1.png)
